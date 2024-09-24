@@ -45,6 +45,8 @@ header{
     height: 200px;
     width:250px;
     position: absolute;
+    top: 50px;
+    background: black;
     display: none;
     gap: 10px;
 
