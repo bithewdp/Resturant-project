@@ -197,13 +197,15 @@ color: white;
 
 .your-class{
     display: flex;
+    width: 1000px;
+    margin: 0 auto;
 
 }
 .slider_image_content_start{
     display: flex;
-    height:500px ;
+    height:400px ;
     margin-top: 85px;
-    margin-left: 400px;
+   
 }
 .pancake_image{
     height: 370px;
@@ -261,11 +263,11 @@ color: white;
 }
 
 .slick-prev {
-    left: 5%;
+    left:  -5%;
 }
 
 .slick-next {
-    right: 5%;
+    right: -5%;
 }
 
 
@@ -300,13 +302,14 @@ color: white;
     height: 400px;
     width: 1200px;
     display: flex;
-    margin-left: 150px;
-    margin-top: 20px;
-    gap: 20px  ;
-    font-size: 20px;
+    margin: 0 auto;
+   
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin-top: 20px;
+    gap: 20px  ;
+    font-size: 20px;
     
 }
  .user_details{
@@ -315,6 +318,9 @@ color: white;
     font-family: roboto;
     font-style: italic;
 }
+
+
+
 .text{
     width: 250px;
     height: 40px;
@@ -328,36 +334,45 @@ color: white;
     gap: 40px;
     margin-top: 20px;
 }
-
-
-.fa-envelope-o{
-margin-left: -40px;
-/* color: #f28a2f; */
+.date_email{
+    display: flex;
+    flex-direction: column;
+    font-family:roboto;
+    font-style: italic;
+    font-size: 20px;
 }
+.just_email{
+    display: flex;
+}
+.label_name{
+    color: goldenrod;
+}
+
+
 .fa-pencil-square-o{
     margin-left: -40px;
-    /* color: #f28a2f; */
+
 }
+
 .fa-user{
-margin-left: -40px;
-/* color: #f28a2f; */
+margin-left: -40px; 
 }
+
 .fa-clock-o{
 margin-left: -40px;
-/* color: #f28a2f; */
+
 }
 
 .fa-phone-square{
 margin-left: -27px;
- /* color: #f28a2f; */
+ 
 }
 
-element.style {
+/* .element.style {
     padding: 20px;
-}
+} */
 .fa-envelope-o{
-    margin: -1px;
-    margin-left: -23px;
+    margin-left: -40px;
 
 }
 .password{
